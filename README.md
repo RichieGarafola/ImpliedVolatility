@@ -28,6 +28,10 @@ matplotlib
 
 ---
 
+**File:** [Implied Volatiltiy](ImpliedVolatility.ipynb)
+
+---
+
 ## Step 1: Get live options data
 
 yfinance returns data for all strikes for a single expiration at a time. It’s easier to work with all strikes and expirations at the same time so write a function to combine the expirations.
