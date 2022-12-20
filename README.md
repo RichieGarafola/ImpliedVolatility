@@ -57,7 +57,8 @@ Download the data and get the call options.
 Pick an expiration so you can plot the volatility skew.
 
 
-plot the Implied Volatility Skew
+**plot the Implied Volatility Skew:**
+
 !['Implied Volatility Skew'](./Images/ImpliedVolatilitySkew.jpg)
 
 Notice two things:
@@ -66,7 +67,7 @@ First, the data is messy. In practice, quants use their own models to calculate 
 Second thing to notice is that the implied volatility varies with each strike. In particular, it is lowest at the $400 strike, which is right around the stock price. This is known as *volatility smile.*
 
 
-Plot the Implied Volatility Term Structure
+**Plot the Implied Volatility Term Structure:**
 
 !['Implied Volatility Term Structure'](./Images/ImpliedVolatilityTermStructure.jpg)
 
@@ -76,7 +77,7 @@ Implied volatility is decreasing as the expiration dates get further out. This t
 ## Step 3: Plot a volatility surface
 By putting both charts together, you get the volatility surface. In derivatives pricing and trading, volatility surfaces are very important. Quants use the surface to price and trade other more exotic derivatives and look for market mispricings. Volatility surfaces are also used to determine profit and loss by "marking trades to model."
 
-Plot the Implied Volatility Surface
+**Plot the Implied Volatility Surface:**
 
 !['Implied Volatility Surface'](./Images/ImpliedVolatilitySurface.jpg)
 
